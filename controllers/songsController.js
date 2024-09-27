@@ -95,9 +95,9 @@ exports.uploadSongs = [
 exports.deleteSong = async (req, res) => {
     const { id } = req.params;
     try {
-        const [result] = await db.query('DELETE FROM tbl_spotifyyy WHERE id = ?', [id]);
+        const [result] = await db.query('DELETE FROM tablesongs WHERE id = ?', [id]);
         if (result.affectedRows > 0) {
-            res.redirect('/songs'); // Redirect to songs list after deletion
+            res.redirect('/songs'); 
         } else {
             res.status(404).send('Song Not Found');
         }

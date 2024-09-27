@@ -229,22 +229,22 @@ body {
 }
 
 .delete-button {
-  background-color: black; /* Black background */
-  color: white; /* White text */
+  background-color: black; 
+  color: white; 
   border: none;
-  padding: 10px 20px; /* Padding for better clickability */
-  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; 
+  border-radius: 5px; 
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
   font-family: 'Poppins', sans-serif;
 }
 
 .delete-button:hover {
-  background-color: #333; /* Dark gray on hover */
-  transform: scale(1.05); /* Slight zoom effect on hover */
+  background-color: #333; 
+  transform: scale(1.05); 
 }
 
 .delete-button:active {
-  transform: scale(0.95); /* Slight shrink on click */
+  transform: scale(0.95); 
 }
 
